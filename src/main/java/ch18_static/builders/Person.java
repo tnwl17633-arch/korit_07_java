@@ -17,11 +17,6 @@ public class Person {
         this.address = builder.address;
     }
 
-    public static <E> Enum<E> builder() {
-    }
-
-    public double getHeight() {
-    }
     /*
         PersonMain에서 생성자 호출을 통해서 객체를 생성하는 것을 막았습니다.
         그리고 매개변수 부분을 보면 Builder builder라고 되어있고,
@@ -48,7 +43,7 @@ public class Person {
             // 값이 대입된 객체가 리턴됨.
         }
 
-        public Builder arg(int age) {
+        public Builder age(int age) {
             this.age = age;
             return this;
         }

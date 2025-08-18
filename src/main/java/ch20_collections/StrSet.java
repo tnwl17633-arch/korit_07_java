@@ -1,10 +1,7 @@
 package ch20_collections;
 
-import java.sql.Array;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Set;
+
+import java.util.*;
 
 /*
     List는 순서가 있고 중복을 허용하는 반면, 
@@ -21,7 +18,7 @@ import java.util.Set;
     
  */
 public class StrSet {
-    public static <List> void main(String[] args) {
+    public static void main(String[] args) {
         // Set 객체 생성
         Set<String> strSet = new HashSet<>();    // 빨간거 떴을 때 alt+enter
        // List 객체도 생성
@@ -46,7 +43,7 @@ public class StrSet {
         System.out.println(strSet);
 
         //List의 element들을 전부 Set에 대입 -> 리스트명.addAll(세트명);
-        strList.addAll(StrSet); //svo로 하시기 바랍니다.
+        strList.addAll(strSet); //svo로 하시기 바랍니다.
         System.out.println(strList);    // 원래 List는 그대로 유지
         System.out.println(strSet);     //Set에 element들이 더해지긴 했는데
         // 중복이 제거되어있습니다. 결과값 : [TypeScript, python, java, React]

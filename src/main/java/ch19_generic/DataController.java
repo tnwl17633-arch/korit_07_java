@@ -1,5 +1,7 @@
 package ch19_generic;
 
+import java.util.Date;
+
 public class DataController {
     public static void main(String[] args) {
         Date now = new Date();  //Java 내장 클래스로 객체 생성

@@ -16,7 +16,7 @@ public class PersonMain {
         Person person2 = new Person.Builder().build();
         System.out.println(person2);
 
-        Person person3 = new Person().Builder().address("서울특별시 종로구").build();
+        Person person3 = new Person.Builder().address("서울특별시 종로구").build();
         System.out.println(person3);
     }
 }

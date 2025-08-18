@@ -1,7 +1,5 @@
 package ch18_static.builders;
 
-import static sun.jvm.hotspot.interpreter.Bytecodes.name;
-
 public class PersonLombokMain {
     public static void main(String[] args) {
         PersonLombok person1 = PersonLombok.builder()

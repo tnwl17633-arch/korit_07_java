@@ -2,7 +2,7 @@ package ch20_collections;
 
 import java.util.Scanner;
 
-public class FieldTRIP {
+public class FieldTrip {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -35,12 +35,9 @@ public class FieldTRIP {
         System.out.println("몇 명의 학생이 수학 여행지를 입력하시겠습니까? >>> ");
         int student = scanner.nextInt();
         scanner.nextLine();
-        int i =
-        for(int i = 0 ; i < 6.)
 
-        strList.add("java");
 
-        System.out.println("수학 여행 후보지는" +   + "입니다.");
+        System.out.println("수학 여행 후보지는" + "입니다.");
     }
 
 }

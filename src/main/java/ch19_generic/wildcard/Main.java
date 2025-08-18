@@ -60,13 +60,14 @@ public class Main {
         } else {                    // animalData6 == null 이라면
             System.out.println("아무것도 없습니다.");
         }
+    }
 }
 
 
 //  특정 element lIST 내의 검색 -> contains() 메서드 사용 리스트명..contains(목적어)
-String searcheElem = "python";
-    boolean contains1 = strList.contains()
-SearchE1em1
+//String searcheElem = "python";
+//    boolean contains1 = strList.contains()
+//SearchE1em1
 
 
 // 결과값 : true
@@ -88,22 +89,22 @@ System.out.println(strList);
 // 전체 element 들 출력 방법
 // 1. 배열
 // 일반 for문으로 출력하시오
-for( int i = 0; i < strArray.length ; i ++ ) {
-        System.out.println(strArray[i] + " ");
-}
-System.out.println();
-// 향상된 for문으로 출력하시오
-    for(String data : strArray) {
-        System.out.println(data + " ");
-}
-// 2. 리스트
-for( int i = 0 ; i < strList.size() ; i++ ) {
-        System.out.println(strList.get(i));}
-}
-System.out.println();
-// 향상된 for문
-for(String elem : strList ) {
-    s
-        }
-    int[] arr01 = { 1, 2, 3, 4, 5 };
-for()
+//for( int i = 0; i < strArray.length ; i ++ ) {
+//        System.out.println(strArray[i] + " ");
+//}
+//System.out.println();
+//// 향상된 for문으로 출력하시오
+//    for(String data : strArray) {
+//        System.out.println(data + " ");
+//}
+//// 2. 리스트
+//for( int i = 0 ; i < strList.size() ; i++ ) {
+//        System.out.println(strList.get(i));}
+//}
+//System.out.println();
+//// 향상된 for문
+//for(String elem : strList ) {
+//    s
+//        }
+//    int[] arr01 = { 1, 2, 3, 4, 5 };
+//for()
